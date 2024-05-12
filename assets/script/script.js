@@ -7,7 +7,7 @@ document.getElementById("showInputBtn").addEventListener("click", function () {
     }
 });
 
-/*sarebbe stato opportuno creare una funzione e passare a questa ogni volta il carousel indentificato con il rispettivo id in modo da non ripete più volte il codice*/
+/*sarebbe stato opportuno creare una funzione e passare a questa ogni volta il carousel identificato con il rispettivo id in modo da non ripete più volte il codice*/
 let items = document.querySelectorAll('#recipeCarousel .carousel-item')
 
 items.forEach((el) => {
