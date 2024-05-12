@@ -11,7 +11,7 @@ document.getElementById("showInputBtn").addEventListener("click", function () {
 let items = document.querySelectorAll('#recipeCarousel .carousel-item')
 
 items.forEach((el) => {
-    const minPerSlide = 6
+    const minPerSlide = 6 
 
     let next = el.nextElementSibling
 
@@ -64,7 +64,7 @@ item.forEach((el) => {
 let movie = document.querySelectorAll('#movies .carousel-item')
 
 movie.forEach((el) => {
-    const minPerSlide = 6
+    const minPerSlide = 6  //non modifica il funzionamento delle classi di bootstrap che gestiscono correttamente il responsive ma crea un errore "paused in debugger" se si ricarica la finestra e sono in uso gli strumenti responsive di chrome, tuttavia non ha a che vedere con il responsive: il ridimensionamento della finestra senza gli strumenti di chrome viene perfettamente gestito
 
     let next = el.nextElementSibling
 
